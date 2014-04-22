@@ -1,0 +1,16 @@
+= Manage Page Permission plugin
+== Install
+
+* Copy manage_page_permission plugin to {RAILS_APP}/plugins on your redmine path
+* Run rake redmine:plugins NAME=manage_page_permission RAILS_ENV=production
+
+== Uninstall
+
+* rake redmine:plugins NAME=manage_page_permission RAILS_ENV=production
+* rm -r plugins/manage_page_permission
+
+== Requirements
+
+* Redmine 2.2.4.stable and above
+
+This software is licensed under the terms of the GNU General Public License (GPL) v2. See COPYRIGHT and COPYING for details.
